@@ -1,0 +1,134 @@
+{
+  "project_name": "Dead Channel 13 - Rain on the Glass",
+  "title": "DEAD CHANNEL 13 — Rain on the Glass",
+  "flow_project_url": "https://flow.google.com/project/4b489eb8-a64f-4a44-9636-1f4cd8c4bf0b",
+  "reference_project_url": "https://flow.google.com/project/0eb2012b-60cd-4e09-9f7f-15d6e27606d9",
+  "style_lock": "1990s hand-inked cel anime noir with expressive heavy black ink contours, Cowboy Bebop wet-steel specular reflections, Bungo Stray Dogs steep Dutch angles, Yu Yu Hakusho high-contrast sakuga impact lines, Steins;Gate amber Nixie vs. cold cyan CRT scanlines, gouache storm skies, and 35mm film grain. Zero 3D CGI or glossy plastic shading.",
+  "aspect_ratio": "16:9",
+  "output_dirs": {
+    "frames": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+    "videos": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos"
+  },
+  "shots": [
+    {
+      "id": "cut_01",
+      "title": "Catwalk Rainwater Kick & Boxing Exchange",
+      "shot_size": "MS",
+      "audio_cue": "Pouring skylight rain, hollow steel catwalk footsteps, whipping water arc, tight elbow-parry impact",
+      "image_request": {
+        "prompt": "Medium shot (MS) inside a rain-lashed Shibuya broadcast tower atrium at 2:13 AM under a shattered stained-glass skylight, 1990s hand-drawn cel anime noir. On a narrow steel catwalk lined with dead CRT monitors and neon puddles, wiry teen brawler Renji (messy jet-black hair, open faded olive work jacket, white tank top, taped knuckles, smirk) pivots in a Jeet Kune Do stance snapping a low sweep that whips a crescent sheet of rainwater toward calm enforcer Masato (charcoal 3-piece pinstripe suit, silver hair, obsidian shades, black leather gloves). Crisp ink lines, gouache reflections, 35mm film grain.",
+        "model": "Nano Banana 2",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+        "reference_images": [],
+        "auto_confirm": false,
+        "response_format": "detailed"
+      },
+      "video_request": {
+        "prompt": "Side-tracking medium camera glide along the rain-slicked steel catwalk as the olive-jacketed brawler bounces in a fluid boxing rhythm and whips a low sweeping rainwater kick across the pinstripe enforcer's obsidian shades, immediately flowing into a tight elbow-parry and knee exchange in pouring skylight rain; 1990s hand-drawn Cowboy Bebop style martial-arts choreography and 35mm cel grain.",
+        "model": "Veo 3.1 Lite",
+        "duration": "6s",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos",
+        "auto_confirm": false,
+        "response_format": "detailed"
+      }
+    },
+    {
+      "id": "cut_02",
+      "title": "Zero Beat: Frozen Raindrops & CRT Crash",
+      "shot_size": "WS",
+      "audio_cue": "Crisp black-gloved finger snap, sudden vacuum hush, sub-bass frame-skip thump, crashing CRT phosphor burst",
+      "image_request": {
+        "prompt": "Keep the exact 1990s cel anime style, Shibuya atrium, and exact Renji and Masato character designs from Cut 01. Steep Dutch-angle wide shot (WS): silver-haired Masato (charcoal 3-piece pinstripe suit, obsidian shades, black leather gloves) snaps his fingers, locking thousands of falling raindrops dead still in mid-air like suspended glass beads. Cyan frame-skip afterimages trail behind Renji (open olive work jacket, white tank top, taped knuckles) as Masato appears behind his ribs and palm-strikes him violently sideways through stacked CRT monitors exploding in blue phosphor sparks and glass. Sharp angular cel shadows, bold black ink outlines, 35mm film grain.",
+        "model": "Nano Banana 2",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+        "reference_images": [],
+        "auto_confirm": false,
+        "response_format": "detailed"
+      },
+      "video_request": {
+        "prompt": "Extreme close-up snap of black-gloved fingers snapping cleanly into a steep Dutch-angle wide shot as falling rain freezes dead still in mid-air; the pinstripe enforcer ghosts across four skipped animation frames behind the olive-jacketed brawler and palm-strikes him violently sideways through crashing CRT monitors erupting in blue phosphor sparks; kinetic 90s hand-drawn cel animation.",
+        "model": "Veo 3.1 Lite",
+        "duration": "6s",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos",
+        "auto_confirm": false,
+        "response_format": "detailed"
+      }
+    },
+    {
+      "id": "cut_03",
+      "title": "13-Second Phase-Tape Micro-Rewind",
+      "shot_size": "MCU",
+      "audio_cue": "Brass toggle clack, glowing Nixie counter ticks, magnetic Phase-Tape rewind screech, urgent earpiece voice",
+      "image_request": {
+        "prompt": "Keep the exact 1990s hand-drawn cel anime noir style and Shibuya broadcast tower setting from previous shots. Medium close-up (MCU) inside the elevated glass control booth overlooking the rain-lashed catwalk below. Tall gaunt 22-year-old engineer Toma (disheveled dark-brown hair, grease-stained white mechanic shop coat over charcoal turtleneck, cracked round wire glasses) slams a brass analog toggle switch as his forearm glass Nixie-tube counter flashes 13.000 in glowing amber static. Beside him, sharp-eyed tactician Sora (chestnut-copper hair clipped on one side, camel-tan trench blazer, ivory blouse, loose burgundy silk tie) leans over a glowing CRT oscilloscope calling coordinates into a headset. Through the booth window behind them, shattered CRT glass zips backward trailing ghostly cyan scanlines. Warm amber vs cold cyan 90s cel contrast, 35mm film grain.",
+        "model": "Nano Banana 2",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+        "reference_images": [],
+        "auto_confirm": false,
+        "response_format": "detailed"
+      },
+      "video_request": {
+        "prompt": "Whip-cut inside the glass control booth as the white-coated engineer slams the brass Phase-Tape switch and amber forearm Nixie tubes strobe backward from 13.000 to 00.000 while the tan-blazered tactician points at a spiking oscilloscope; outside the booth window, suspended CRT shards and cobalt static snap violently in reverse trailing cyan scanlines; crisp 90s cel anime pacing.",
+        "model": "Veo 3.1 Lite",
+        "duration": "6s",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos",
+        "auto_confirm": false,
+        "response_format": "detailed"
+      }
+    },
+    {
+      "id": "cut_04",
+      "title": "Pulse-Shot & Dead-Fire Stained-Glass Clash",
+      "shot_size": "WS",
+      "audio_cue": "Blinding cobalt Pulse-Shot crack, roaring black-violet blade fire, 360-degree steam blast shattering stained glass",
+      "image_request": {
+        "prompt": "Keep the exact 1990s hand-drawn cel anime style, rainbow stained-glass skylight atrium, and exact Renji and Masato designs from previous shots. Explosive low-angle wide sakuga shot (WS) on the wet catwalk: pivoting low with a fierce grin, Renji (olive work jacket, white tank top, taped knuckles) fires a blinding cobalt-white crackling Pulse-Shot knuckle blast point-blank forward while compact swordsman Kuroha (raven-black hair with silver temple streak, torn charcoal collared mantle, glowing crimson scarred eye under dark brow wrap, linen-wrapped black wakizashi) drops from suspended raindrops trailing roaring obsidian-violet flames. Caught between both attacks, Masato (charcoal pinstripe suit, obsidian shades) catches the dark flame blade on a shimmering crimson inertia barrier with his left hand and parries Renji's cobalt blast with his right, blowing out the stained-glass skylight in high-contrast black-and-white 90s ink impact lines and a steam shockwave. 35mm film grain.",
+        "model": "Nano Banana 2",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+        "reference_images": [],
+        "auto_confirm": false,
+        "response_format": "detailed"
+      },
+      "video_request": {
+        "prompt": "Sweeping 180-degree low orbital anime camera around the three-way clash as the olive-jacketed brawler pivots into a blinding cobalt knuckle blast and the cloaked swordsman drops from frozen raindrops swinging an obsidian-violet flame wakizashi; both collide against the pinstripe enforcer's crimson inertia palm, flashing into black-and-white 90s sakuga impact frames and flash-boiling raindrops into a steam ring that shatters the stained-glass dome.",
+        "model": "Veo 3.1 Lite",
+        "duration": "8s",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos",
+        "auto_confirm": false,
+        "response_format": "detailed"
+      }
+    },
+    {
+      "id": "cut_05",
+      "title": "Noir Aftermath on the Wet Steel Grate",
+      "shot_size": "MS",
+      "audio_cue": "Colored glass chiming onto wet steel, steady night rain resuming, faint knuckle static fade, muted noir brass note",
+      "image_request": {
+        "prompt": "Keep the exact 1990s hand-drawn cel anime noir style, Shibuya catwalk, and exact Renji and Masato designs from previous shots. Moody quiet medium shot (MS) on the rain-soaked steel catwalk moments after the blast. Colored stained-glass shards glisten in neon puddles beside Masato's cracked obsidian sunglasses; in misty pouring rain behind, silver-haired Masato stands shadowed with a thin smoldering scorch mark across his charcoal pinstripe lapel. Foreground frames wet messy-haired Renji (soaked faded olive jacket, white tank top) shaking bruised taped knuckles curling with faint cobalt static smoke and a calm cocky smirk under cold neon-blue rain. Classic Cowboy Bebop cel anime noir ending frame, rich gouache shadows, 35mm film grain.",
+        "model": "Nano Banana 2",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\frames",
+        "reference_images": [],
+        "auto_confirm": false,
+        "response_format": "detailed"
+      },
+      "video_request": {
+        "prompt": "Slow deliberate dolly-back medium shot over colored stained-glass shards and cracked obsidian sunglasses glittering on wet steel grating as steady night rain resumes; the wet olive-jacketed brawler shakes wisps of cobalt static smoke off his bruised taped knuckles with a quiet smirk while the shadowed pinstripe enforcer stands motionless in the misty background; classic 90s cel anime noir cooldown.",
+        "model": "Veo 3.1 Lite",
+        "duration": "6s",
+        "ratio": "16:9",
+        "output_folder": "g:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\videos",
+        "auto_confirm": false,
+        "response_format": "detailed"
+      }
+    }
+  ]
+}

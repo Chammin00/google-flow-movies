@@ -1,0 +1,15 @@
+# Rendered Video Outputs & Media
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.part
+
+# System & Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+*.tmp
