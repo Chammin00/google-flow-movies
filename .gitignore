@@ -18,3 +18,5 @@ Desktop.ini
 .idea/
 *.log
 *.tmp
+__pycache__/
+*.pyc

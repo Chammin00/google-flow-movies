@@ -1,0 +1,65 @@
+{
+  "title": "MUSHROOM GAIDEN: DRAGON OF THE SHADOW CAP",
+  "subtitle_jp": "キノコ伝 — 龍隼の影",
+  "masters": {
+    "jp_sub": {
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\masters\\MUSHROOM_GAIDEN_ACTION_SHORT_JP_SUB.mp4",
+      "duration_sec": 54.208,
+      "width": 1920,
+      "height": 1080,
+      "fps": "24/1",
+      "pix_fmt": "yuv420p",
+      "sample_rate": 48000,
+      "channels": 2,
+      "integrated_lufs": -14.12,
+      "true_peak_db": -0.7,
+      "bytes": 98087880
+    },
+    "en_dub": {
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\masters\\MUSHROOM_GAIDEN_ACTION_SHORT_EN_DUB.mp4",
+      "duration_sec": 54.208,
+      "width": 1920,
+      "height": 1080,
+      "fps": "24/1",
+      "pix_fmt": "yuv420p",
+      "sample_rate": 48000,
+      "channels": 2,
+      "integrated_lufs": -14.27,
+      "true_peak_db": -0.78,
+      "bytes": 98831097
+    },
+    "clean": {
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\masters\\MUSHROOM_GAIDEN_ACTION_SHORT_CLEAN.mp4",
+      "duration_sec": 54.208,
+      "width": 1920,
+      "height": 1080,
+      "fps": "24/1",
+      "pix_fmt": "yuv420p",
+      "sample_rate": 48000,
+      "channels": 2,
+      "integrated_lufs": -14.12,
+      "true_peak_db": -0.7,
+      "bytes": 98839124
+    }
+  },
+  "shorts": {
+    "short_9x16": {
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\publish\\shorts\\MUSHROOM_GAIDEN_SHORT_9x16.mp4",
+      "duration_sec": 23.4,
+      "width": 1080,
+      "height": 1920,
+      "fps": "24/1",
+      "pix_fmt": "yuv420p",
+      "sample_rate": 48000,
+      "channels": 2,
+      "integrated_lufs": -14.06,
+      "true_peak_db": -0.91,
+      "bytes": 30080977
+    }
+  },
+  "assets": {
+    "thumbnail": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\publish\\MUSHROOM_GAIDEN_THUMBNAIL.png",
+    "storyboard": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\storyboard_sheet.png",
+    "score": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\mushroom-gaiden\\audio\\mushroom_gaiden_score.wav"
+  }
+}

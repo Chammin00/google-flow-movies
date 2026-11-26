@@ -1,0 +1,167 @@
+{
+  "project_name": "Mushroom Gaiden - Toad & Toadette Shinobi",
+  "title": "MUSHROOM GAIDEN: DRAGON OF THE SHADOW CAP",
+  "subtitle_jp": "キノコ伝 — 龍隼の影",
+  "aspect_ratio": "16:9",
+  "target_resolution": "1920x1080",
+  "fps": 24,
+  "style_lock": "Big-budget theatrical 3D CGI animated action feature film style with rich subsurface scattering on rounded mushroom caps and skin, finely woven dark shinobi cloth, brushed Damascus steel, leather straps, wet black ceramic roof tiles reflecting swaying crimson paper lanterns and a colossal silver-crimson full moon, volumetric storm mist, flying rain droplets, glowing azure-gold embers and neon-violet cherry blossom petals, anamorphic 35mm cinema lens flares, dramatic rim lighting, razor-sharp motion blur. Zero 2D flat cartoon look, zero cheap glossy plastic toys.",
+  "character_locks": {
+    "toad_hayabusa": "Heroic compact 3.5-foot mushroom-headed shinobi warrior with unmistakable white bulbous mushroom cap covered in bold bright-red polka-dot spots, fierce determined big dark eyes, theatrical 3D character proportions, wearing sleek matte-black and dark-indigo armored dragon-clan ninja bodysuit, sculpted gunmetal bracers wrapped with crimson cord, dark metallic silver-falcon crest headband tied around the base of his red-spotted white mushroom cap with two long tattered cobalt-blue and crimson scarf tails whipping in the wind, armored ninja tabi boots, wielding an ornate gold dragon-hilted katana sword with glowing azure-gold Damascus steel blade.",
+    "toadette_ayane": "Agile compact 3.5-foot pink mushroom-headed kunoichi warrior with unmistakable rosy-pink bulbous mushroom cap covered in bright white polka-dot spots, iconic twin braided pink mushroom pigtails extending from the back of her cap tied with flowing lavender-purple silk ribbons, fierce bright eyes, confident smirk, theatrical 3D character proportions, wearing deep royal-purple and plum sleeveless silk ninja kimono-tunic with gold embroidery and crimson cord lacing, large sculpted amethyst butterfly-wing obi sash at her back with long trailing lavender-purple silk ribbons, dark shinobi arm-guards and leg wraps, wielding twin curved silver short-blade kodachi daggers with purple-wrapped hilts and glowing magenta-violet cherry-blossom explosive kunai.",
+    "shadow_ninjas": "Shadow-Shell Foot Ninjas: agile armored turtle-shell shadow ninjas with spiked matte-obsidian back shells, glowing crimson eye slits beneath dark steel kasa conical hats, dark cloth wraps, swinging chains and black katana.",
+    "obsidian_shogun": "Lord Kuro-Kame (Obsidian Dragon-Shell Shogun): towering 12-foot demonic armored turtle-oni warlord in molten-cracked black samurai armor, colossal volcano-spiked obsidian back shell glowing magma-red inside deep cracks, horned iron kabuto helmet with glowing crimson eyes, wielding a massive rune-etched greatsword crackling with red lightning."
+  },
+  "shots": [
+    {
+      "id": "shot_01",
+      "title": "Moonlit Pagoda Drop",
+      "shot_size": "WS -> Low Hero MS",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp"],
+      "keyframe": "frames/shot_01_canon.webp",
+      "playback_speed": 1.15,
+      "hit_stop_frames": 0,
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": null,
+      "subtitles": [],
+      "image_prompt": "Wide-to-low heroic establishing shot on a rain-lashed traditional Japanese feudal pagoda rooftop at midnight in front of a colossal silver-crimson full moon and swaying glowing red paper lanterns. Keep the exact character designs from the attached reference images: Left foreground, the compact white-and-red-spotted mushroom-headed dragon shinobi warrior (falcon headband with whipping cobalt-blue and crimson scarf tails, matte-black indigo ninja armor, hand resting on ornate gold-hilted azure katana) lands in a fierce low three-point crouch splashing rainwater across glossy black ceramic roof tiles. Right, the compact rosy-pink white-spotted mushroom-headed kunoichi warrior (twin braided pink pigtails tied with lavender ribbons, royal-purple sleeveless ninja tunic, large sculpted amethyst butterfly-wing obi sash with flowing silk ribbons, twin curved silver kodachi blades drawn and glowing with neon-violet cherry blossom petals) drops gracefully beside him amid storm mist. Theatrical 3D CGI animated feature film quality, anamorphic moonlit rim lighting, flying rain droplets.",
+      "video_prompt": "Dramatic low-angle push-in camera on the rain-lashed pagoda rooftop as the red-spotted white mushroom shinobi drops cleanly into a crisp three-point landing sending a bright splash of rainwater off wet black ceramic tiles while his crimson scarf whips violently in the night gale, and the pink white-spotted mushroom kunoichi flips smoothly down beside him in swirling purple silk ribbons and glowing violet sakura petals, twin silver blades gleaming in moonlight. Heavy rainstorm ambiance, crisp steel click, theatrical 3D CGI animation."
+    },
+    {
+      "id": "shot_02",
+      "title": "Dragon & Blossom Vow",
+      "shot_size": "MCU Two-Shot",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp"],
+      "keyframe": "frames/shot_02_canon.webp",
+      "playback_speed": 1.0,
+      "hit_stop_frames": 0,
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": "龍剣が唸る……一気に斬り込むぞ、アヤネ！ / 遅れないでよ、リュウ！",
+      "subtitles": [
+        { "start_rel": 0.25, "end_rel": 3.25, "speaker": "Toad (Ryu)", "text": "The Dragon Sword calls—we strike straight through, Ayane!" },
+        { "start_rel": 3.30, "end_rel": 5.75, "speaker": "Toadette (Ayane)", "text": "Try to keep up, Ryu!" }
+      ],
+      "image_prompt": "Dynamic medium close-up two-shot in pouring pagoda rain under crimson lantern glow and silver moonlight. Keep the exact character designs from the attached reference images: Left, the compact red-spotted white mushroom-headed dragon shinobi (metallic falcon headband, fierce determined dark eyes, matte-black indigo ninja armor) draws the ornate gold-hilted katana cleanly from his back scabbard, the Damascus steel blade humming with azure-gold sparks. Beside him right, the compact rosy-pink white-spotted mushroom-headed kunoichi (twin braided pink pigtails with lavender ribbons, royal-purple ninja tunic, confident fearless smirk) spins twin curved silver kodachi short-blades crackling with neon-magenta cherry-blossom sparks. Theatrical 3D CGI animated movie close-up, shallow depth of field, droplets beading on mushroom caps and cloth.",
+      "video_prompt": "Tight dynamic medium close-up two-shot in falling rain: the red-spotted white mushroom shinobi speaks fiercely as he unsheathes his azure-glowing dragon katana with a crisp metallic ring, then the pink white-spotted mushroom kunoichi smirks and twirls her twin curved silver blades with purple sparks while speaking back. Locked 1.0x cinematic pacing with clear expressive mouth lip-sync matching Japanese dialogue: male shinobi says '龍剣が唸る……一気に斬り込むぞ、アヤネ！' and female kunoichi replies '遅れないでよ、リュウ！'"
+    },
+    {
+      "id": "shot_03",
+      "title": "Black-Shell Ambush Blitz",
+      "shot_size": "14mm Dynamic Tracking WS",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp", "frames/ref_obsidian_shogun.webp"],
+      "keyframe": "frames/shot_03_canon.webp",
+      "playback_speed": 1.25,
+      "hit_stop_frames": 3,
+      "hit_stop_rel": 0.58,
+      "hit_stop_color": "azure",
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": null,
+      "subtitles": [],
+      "image_prompt": "Extreme 14mm ultra-wide dynamic Dutch-angle action shot on the rain-slick pagoda courtyard. Keep exact character designs from the attached reference images: six armored turtle-shell shadow ninjas (spiked matte-black obsidian shells, glowing crimson eye slits under dark steel conical kasa hats, black katana and chains) dive downward off crimson lantern eaves to ambush both heroes. Center-left, the red-spotted white mushroom-headed dragon shinobi dashes in a blazing azure-gold katana blur deflecting two shadow ninja blades in an explosion of blinding golden sparks. Upper-right, the rosy-pink white-spotted mushroom-headed kunoichi vaults off a swinging red paper lantern hurling three glowing magenta-violet cherry-blossom explosive kunai downward into the enemy squad. Theatrical 3D CGI action spectacle, flying rainwater, embers, razor motion blur.",
+      "video_prompt": "Ultra-fast 14mm wide tracking action shot across the rain-drenched pagoda courtyard: crimson-eyed black-shelled shadow ninjas plummet off wooden eaves swinging chains and black katana; the red-spotted white mushroom shinobi lunges in a blazing azure sword-parry streak erupting in golden sparks while the pink mushroom kunoichi leaps backward off a swaying crimson lantern firing three glowing purple sakura explosive kunai that detonate in violet light. Fierce ninja kiai shouts, rapid steel clashes, explosive kunai blasts."
+    },
+    {
+      "id": "shot_04",
+      "title": "Toad's Izuna Drop",
+      "shot_size": "Extreme Whip-Tilt Aerial Dive",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_obsidian_shogun.webp"],
+      "keyframe": "frames/shot_04_canon.webp",
+      "playback_speed": 1.22,
+      "hit_stop_frames": 4,
+      "hit_stop_rel": 0.72,
+      "hit_stop_color": "azure",
+      "vacuum_cut_sec": 0.20,
+      "dialogue_jp": "飯綱落とし！！",
+      "subtitles": [
+        { "start_rel": 1.80, "end_rel": 4.80, "speaker": "Toad (Ryu)", "text": "IZUNA DROP!!" }
+      ],
+      "image_prompt": "Extreme vertical whip-tilt aerial action frame silhouetted against the colossal luminous full moon above the pagoda roof. Keep the exact character designs from the attached reference images: the compact red-spotted white mushroom-headed dragon shinobi (metallic falcon headband, whipping cobalt-crimson scarf, matte-black indigo ninja armor) locks an airborne spiked black-shelled shadow ninja upside-down in a high-speed corkscrew spinning aerial pile-driver slam surrounded by roaring azure-gold wind ribbons and glowing lightning streaks, plummeting head-first toward shattered wet black roof tiles below. Theatrical 3D CGI cinema sakuga energy, flying tile fragments, volumetric storm clouds.",
+      "video_prompt": "Thrilling vertical whip-tilt camera tracking skyward as the red-spotted white mushroom shinobi launches a black-shelled shadow ninja high into the moonlight with an upward azure katana arc, leaps above him, locks him in a blazing blue-and-gold corkscrew spinning aerial dive slam, and crashes him violently head-first into the wet pagoda roof tiles in a blinding azure shockwave crater sending ceramic shards flying past the lens. Hero shouts fiercely in Japanese: '飯綱落とし！！'"
+    },
+    {
+      "id": "shot_05",
+      "title": "Toadette's Phantom Blossom",
+      "shot_size": "360° Low Orbital MS",
+      "refs": ["frames/ref_toadette_ayane.webp", "frames/ref_obsidian_shogun.webp"],
+      "keyframe": "frames/shot_05_canon.webp",
+      "playback_speed": 1.22,
+      "hit_stop_frames": 3,
+      "hit_stop_rel": 0.65,
+      "hit_stop_color": "magenta",
+      "vacuum_cut_sec": 0.18,
+      "dialogue_jp": "散れ……紫桜の舞！",
+      "subtitles": [
+        { "start_rel": 1.40, "end_rel": 4.90, "speaker": "Toadette (Ayane)", "text": "Scatter... Phantom Blossom Dance!" }
+      ],
+      "image_prompt": "Dynamic 360-degree low orbital hero action shot inside the misty pagoda courtyard. Keep the exact character designs from the attached reference images: the compact rosy-pink white-spotted mushroom-headed kunoichi (twin braided pink pigtails, lavender silk ribbons, royal-purple ninja tunic, sculpted amethyst butterfly-wing obi sash) spins gracefully mid-air at blinding speed like an electric-violet cyclone, her twin curved silver kodachi blades trailing razor-sharp neon-magenta cherry-blossom energy ribbons and purple afterimage silhouettes as four charging black-shelled shadow ninjas are flung outward in a detonating storm of glowing sakura petals and amethyst shockwaves. Theatrical 3D CGI feature action.",
+      "video_prompt": "Fast 360-degree low orbital camera sweeping around the pink white-spotted mushroom kunoichi as she whips through four charging black-shelled shadow ninjas in a dazzling purple silk cyclone, her twin silver blades carving glowing neon-magenta sakura ribbons through the rain before landing in a razor crouch as a massive violet cherry-blossom shockwave blasts the enemies backward in shimmering petals. Kunoichi cries clearly in Japanese: '散れ……紫桜の舞！'"
+    },
+    {
+      "id": "shot_06",
+      "title": "Enter the Obsidian Shogun",
+      "shot_size": "Towering Low-Angle WS",
+      "refs": ["frames/ref_obsidian_shogun.webp", "frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp"],
+      "keyframe": "frames/shot_06_canon.webp",
+      "playback_speed": 1.0,
+      "hit_stop_frames": 0,
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": "小賢しいキノコどもめ……灰になれ！",
+      "subtitles": [
+        { "start_rel": 1.20, "end_rel": 5.40, "speaker": "Lord Kuro-Kame", "text": "Insolent little mushrooms... turn to ash!" }
+      ],
+      "image_prompt": "Towering low-angle wide boss reveal in the burning moonlit pagoda courtyard. Keep exact character designs from all three attached reference sheets: massive wooden temple doors explode inward in embers as the colossal 12-foot demonic obsidian dragon-shell warlord (molten-cracked black samurai armor, volcano-spiked obsidian turtle shell glowing magma-red inside deep cracks, horned iron kabuto helmet, glowing crimson eyes) stomps forward wielding an enormous rune-etched greatsword crackling with red lightning, cleaving a stone lantern pillar in two. Foreground shows the tiny fierce red-spotted white mushroom shinobi and rosy-pink mushroom kunoichi standing steady before the giant warlord. Theatrical 3D CGI boss cinema.",
+      "video_prompt": "Heavy dramatic low-angle push-in as giant wooden temple doors blast open in glowing embers and the towering 12-foot demonic spiked obsidian turtle-oni warlord stomps heavily into the courtyard, roaring with glowing crimson eyes and swinging his massive red-lightning greatsword cleanly through a stone lantern pillar as the two tiny mushroom shinobi heroes brace in the foreground. Locked 1.0x pacing with deep booming Japanese boss speech: '小賢しいキノコどもめ……灰になれ！'"
+    },
+    {
+      "id": "shot_07",
+      "title": "Wall-Run & Dual Ninpo Charge",
+      "shot_size": "High-Speed Side Tracking",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp", "frames/ref_obsidian_shogun.webp"],
+      "keyframe": "frames/shot_07_canon.webp",
+      "playback_speed": 1.25,
+      "hit_stop_frames": 0,
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": "今だ！龍と桜の忍法！！",
+      "subtitles": [
+        { "start_rel": 2.00, "end_rel": 5.50, "speaker": "Toad & Toadette", "text": "Now! Twin Dragon & Blossom Ninpo!!" }
+      ],
+      "image_prompt": "High-speed side-tracking cinematic action shot across burning lacquered pagoda beams and swirling storm mist. Keep exact character designs from the attached reference images: left-to-right, the red-spotted white mushroom-headed dragon shinobi (whipping scarf, matte-black indigo ninja suit) sprints horizontally sideways along a vertical wooden pillar deflecting crimson lightning arcs with his glowing azure katana while the rosy-pink white-spotted mushroom-headed kunoichi (twin pink pigtails, amethyst butterfly obi) bounds acrobatically across upper roof eaves tossing glowing violet kunai; at peak altitude in front of the full moon, both heroes coil together igniting raging Azure-Gold Flame Dragon energy and swirling Magenta-Violet Blossom energy. Theatrical 3D CGI.",
+      "video_prompt": "Rapid lateral tracking shot dashing alongside the red-spotted white mushroom shinobi as he sprints horizontally across burning pagoda pillars parrying red lightning sparks while the pink white-spotted mushroom kunoichi bounds cleanly across upper roof beams tossing glowing violet kunai, then both heroes launch skyward in unison before the full moon igniting blazing blue-gold dragon fire and electric-violet sakura energy around their blades. Unified Japanese shout: '今だ！龍と桜の忍法！！'"
+    },
+    {
+      "id": "shot_08",
+      "title": "Twin Ultimate Climax Slash",
+      "shot_size": "Extreme Dutch Impact WS",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp", "frames/ref_obsidian_shogun.webp"],
+      "keyframe": "frames/shot_08_canon.webp",
+      "playback_speed": 1.25,
+      "hit_stop_frames": 5,
+      "hit_stop_rel": 0.62,
+      "hit_stop_color": "climax",
+      "vacuum_cut_sec": 0.22,
+      "dialogue_jp": null,
+      "subtitles": [
+        { "start_rel": 0.30, "end_rel": 2.50, "speaker": "SFX / Impact", "text": "[DRAGON & BLOSSOM TWIN SLASH!]" }
+      ],
+      "image_prompt": "Maximum climax extreme Dutch-angle wide impact frame inside the shattered burning courtyard. Keep exact character designs from all three attached reference images: the red-spotted white mushroom-headed dragon shinobi plunges downward wrapped in a roaring luminous Azure-Gold Flame Dragon aura, simultaneously the rosy-pink white-spotted mushroom-headed kunoichi spirals from the opposite diagonal wrapped in a roaring Electric-Violet Cherry-Blossom tornado, their glowing azure katana and twin silver kodachi forming a blinding X-cross energy slash straight into the towering Obsidian Dragon-Shell Shogun's red-lightning greatsword, shattering his giant spiked black shell and armor plates outward in a colossal cyan, gold, and magenta supernova shockwave with flying armor shards and embers. Theatrical 3D CGI anime-cinematic peak.",
+      "video_prompt": "Explosive climax wide impact shot: the red-spotted white mushroom shinobi plunges downward encased in a roaring blue-gold flame dragon while the pink mushroom kunoichi spirals diagonally inside a blazing violet cherry-blossom tornado; their twin glowing blades slam in an X-cross slash straight through the giant black turtle-oni warlord's red-lightning greatsword, shattering his obsidian armor plates and unleashing a colossal cyan-and-magenta shockwave blast sending embers and roof shards hurtling past the camera. Thunderous blade clash, dragon roar, crystal shatter."
+    },
+    {
+      "id": "shot_09",
+      "title": "Shinobi Dawn / Victory Pose",
+      "shot_size": "Slow Heroic Pull-Back MS -> WS",
+      "refs": ["frames/ref_toad_hayabusa.webp", "frames/ref_toadette_ayane.webp"],
+      "keyframe": "frames/shot_09_canon.webp",
+      "playback_speed": 1.0,
+      "hit_stop_frames": 0,
+      "vacuum_cut_sec": 0.0,
+      "dialogue_jp": "任務完了だ。 / 次はもっと強い奴にしようね！",
+      "subtitles": [
+        { "start_rel": 0.60, "end_rel": 2.70, "speaker": "Toad (Ryu)", "text": "Mission complete." },
+        { "start_rel": 2.85, "end_rel": 5.65, "speaker": "Toadette (Ayane)", "text": "Next time, bring someone stronger!" }
+      ],
+      "image_prompt": "Slow heroic pull-back medium-to-wide finale atop the golden-tipped pagoda roof peak as storm clouds part to reveal soft pre-dawn indigo sky, silver moonlight, drifting golden embers, and gentle glowing cherry-blossom petals. Keep exact character designs from both attached reference sheets: the red-spotted white mushroom-headed dragon shinobi (falcon headband, whipping blue-crimson scarf, dark ninja armor) stands tall sheathing his ornate katana cleanly into his back scabbard with a cool calm expression; beside him, the rosy-pink white-spotted mushroom-headed kunoichi (twin pink braided pigtails with lavender ribbons, purple butterfly-wing obi sash) perches poised on the curved golden roof finial with hands on hips and a playful victory smirk. Theatrical 3D CGI finale.",
+      "video_prompt": "Slow graceful crane pull-back atop the mist-cleared pagoda roof peak under parting storm clouds and gentle falling sakura petals: the red-spotted white mushroom shinobi flicks golden sparks off his katana and slides it smoothly with a crisp click into his back scabbard while saying calmly '任務完了だ。', then the pink mushroom kunoichi perched on the golden roof ornament grins proudly with her purple ribbons fluttering in the dawn breeze and replies '次はもっと強い奴にしようね！'. Locked 1.0x cinematic pacing, gentle wind and shamisen cooldown."
+    }
+  ]
+}
