@@ -1,0 +1,88 @@
+{
+    "schema":  "dc13-flow-music-bridge/1.0",
+    "generated":  "2026-11-25T10:46:38-06:00",
+    "sourceHub":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music",
+    "targetDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music",
+    "invideoMediaStandards":  {
+                                  "fps":  24,
+                                  "frameMath":  "half-open [start_f, end_f) at 24 fps",
+                                  "sidechainBusSource":  "BUS_DIALOGUE",
+                                  "musicBus":  "BUS_MUSIC",
+                                  "duckDb":  -11,
+                                  "targetBroadcastLufs":  -16,
+                                  "targetYouTubeLufs":  -14,
+                                  "limiterCeilingDbtp":  -1,
+                                  "rightsNotice":  "yyh01 and yyh02 carry synthIdVerified=false external OST reference stems. Swap with original Google Flow Music renders before monetized commercial YouTube release."
+                              },
+    "trackCount":  2,
+    "tracks":  [
+                   {
+                       "slug":  "yyh01-sunset-credits-suite",
+                       "title":  "Yu Yu Hakusho Sunset Credits Suite (Connected 124 BPM 4-Stem DJ Blend)",
+                       "bpm":  124.0,
+                       "key":  "D minor -\u003e G minor -\u003e Bb major / F minor -\u003e G major",
+                       "durationSec":  286.374,
+                       "masterWav":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\yyh01-sunset-credits-suite.wav",
+                       "instrumentalStemWav":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\yyh01-sunset-credits-suite\\stems\\instruments.wav",
+                       "previewMp3":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\previews\\yyh01-sunset-credits-suite.mp3",
+                       "wavSha256":  "84892997a130957d81a4c5a3b6a76c661a536b57e892da2c06ca10718cdb4432",
+                       "mp3Sha256":  "cc9480829fa4cc97d9b4ff4d10c4b2648388aad10af620cb5e6b799cde5bcd48",
+                       "synthIdVerified":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "cueSlices":  [
+                                         {
+                                             "usage":  "EP01 Ending Credits (48.0s Struggle of Sadness + Unbalanced Kiss)",
+                                             "sourceInSec":  0,
+                                             "sourceOutSec":  48,
+                                             "startFrame24":  0,
+                                             "endFrame24":  1152,
+                                             "bus":  "BUS_MUSIC",
+                                             "fadeOutFrames":  108
+                                         },
+                                         {
+                                             "usage":  "EP02 Ending Credits (48.0s Bridge #1 -\u003e Daydream Generation)",
+                                             "sourceInSec":  86.2,
+                                             "sourceOutSec":  134.2,
+                                             "startFrame24":  2069,
+                                             "endFrame24":  3221,
+                                             "bus":  "BUS_MUSIC",
+                                             "fadeOutFrames":  108
+                                         }
+                                     ]
+                   },
+                   {
+                       "slug":  "yyh02-spirit-detective-chill",
+                       "title":  "Spirit Detective Midnight Chill (Struggle of Sadness x MISIA x Zelda Chill)",
+                       "bpm":  82.0,
+                       "key":  "G major",
+                       "durationSec":  117.073,
+                       "masterWav":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\yyh02-spirit-detective-chill.wav",
+                       "instrumentalStemWav":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\yyh02-spirit-detective-chill\\stems\\instruments.wav",
+                       "previewMp3":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music\\previews\\yyh02-spirit-detective-chill.mp3",
+                       "wavSha256":  "8e4de1815988b30eace1f22488e51e31308a0c2d2447b1091382a14185e3f588",
+                       "mp3Sha256":  "3f483b5cc635fd1f82e8e97005b06e8700b7b4636c77c78bf64cf7eba2d409cd",
+                       "synthIdVerified":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "cueSlices":  [
+                                         {
+                                             "usage":  "EP02/EP03 Midnight Teaser \u0026 Recap Underscore (30.0s)",
+                                             "sourceInSec":  0,
+                                             "sourceOutSec":  30,
+                                             "startFrame24":  0,
+                                             "endFrame24":  720,
+                                             "bus":  "BUS_MUSIC",
+                                             "duckBehindDialogueDb":  -11
+                                         },
+                                         {
+                                             "usage":  "Full Midnight Interlude Master",
+                                             "sourceInSec":  0,
+                                             "sourceOutSec":  117.073,
+                                             "startFrame24":  0,
+                                             "endFrame24":  2810,
+                                             "bus":  "BUS_MUSIC",
+                                             "duckBehindDialogueDb":  -11
+                                         }
+                                     ]
+                   }
+               ]
+}

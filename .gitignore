@@ -1,9 +1,14 @@
-# Rendered Video Outputs & Media
+# Rendered Video Outputs & Large Synced Audio
 *.mp4
 *.webm
 *.mov
 *.mkv
 *.part
+*.wav
+*.mp3
+*.ogg
+*.flac
+stems/
 
 # System & Editor
 .DS_Store

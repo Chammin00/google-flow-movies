@@ -1,0 +1,244 @@
+{
+    "generatedAt":  "2026-11-25T10:38:45.9104568-06:00",
+    "projectRoot":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13",
+    "rootMp4Count":  0,
+    "mastersMp4Count":  4,
+    "archiveMp4Count":  28,
+    "trackedTotalCount":  32,
+    "preservedDirs":  [
+                          "frames",
+                          "frames_ep1",
+                          "frames_ep2",
+                          "frames_v2",
+                          "videos",
+                          "videos_ep1",
+                          "videos_ep2",
+                          "videos_v2"
+                      ],
+    "files":  [
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_FULL_PILOT_JP_SUB.mp4",
+                      "DestinationRelativePath":  "masters\\DEAD_CHANNEL_13_EP01_FULL_PILOT_JP_SUB.mp4",
+                      "Category":  "masters",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  137710951
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_FULL_PILOT_EN_DUB.mp4",
+                      "DestinationRelativePath":  "masters\\DEAD_CHANNEL_13_EP01_FULL_PILOT_EN_DUB.mp4",
+                      "Category":  "masters",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  152202129
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_FULL_EPISODE_JP_SUB.mp4",
+                      "DestinationRelativePath":  "masters\\DEAD_CHANNEL_13_EP02_FULL_EPISODE_JP_SUB.mp4",
+                      "Category":  "masters",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  67083097
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_FULL_EPISODE_EN_DUB.mp4",
+                      "DestinationRelativePath":  "masters\\DEAD_CHANNEL_13_EP02_FULL_EPISODE_EN_DUB.mp4",
+                      "Category":  "masters",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  73976332
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_COLD_OPEN_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_COLD_OPEN_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  63002631
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_COLD_OPEN_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_COLD_OPEN_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  57165424
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT2_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT2_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  27888134
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT2_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT2_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  24985028
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT3_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT3_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  34710706
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT3_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT3_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  31698353
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT4_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT4_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  26603295
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACT4_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACT4_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  23864814
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACTS_1_2_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACTS_1_2_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  90890271
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACTS_1_2_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACTS_1_2_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  82149919
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACTS_1_3_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACTS_1_3_EN_DUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  125599964
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP01_ACTS_1_3_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep01_acts\\DEAD_CHANNEL_13_EP01_ACTS_1_3_JP_SUB.mp4",
+                      "Category":  "archive_ep01_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  113847259
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT1_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT1_EN_DUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  25265888
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT1_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT1_JP_SUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  23052182
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT2_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT2_EN_DUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  24625733
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT2_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT2_JP_SUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  22759793
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT3_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT3_EN_DUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  24086608
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACT3_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACT3_JP_SUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  21273019
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACTS_1_2_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACTS_1_2_EN_DUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  49890854
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EP02_ACTS_1_2_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\ep02_acts\\DEAD_CHANNEL_13_EP02_ACTS_1_2_JP_SUB.mp4",
+                      "Category":  "archive_ep02_acts",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  45811208
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_Directors_Cut_Master.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_Directors_Cut_Master.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  44512650
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_EN_DUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  44966046
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_JP_SUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  40471392
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_OPTION1_SAKUGA_SPEEDUP_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_OPTION1_SAKUGA_SPEEDUP_JP_SUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  21866208
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_OPTION2_SAKUGA_REBUILD_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_OPTION2_SAKUGA_REBUILD_JP_SUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  24164926
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_Rain_on_the_Glass.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_Rain_on_the_Glass.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  23470889
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_V2_DEFINITIVE_EN_DUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_V2_DEFINITIVE_EN_DUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  28309600
+                  },
+                  {
+                      "SourceName":  "DEAD_CHANNEL_13_V2_DEFINITIVE_JP_SUB.mp4",
+                      "DestinationRelativePath":  "archive\\v1_v2_showcases\\DEAD_CHANNEL_13_V2_DEFINITIVE_JP_SUB.mp4",
+                      "Category":  "archive_v1_v2_showcases",
+                      "Status":  "AlreadyInDestination",
+                      "SizeBytes":  25846739
+                  }
+              ]
+}

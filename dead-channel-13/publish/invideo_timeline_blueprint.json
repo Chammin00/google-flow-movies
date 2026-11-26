@@ -1,0 +1,162 @@
+{
+  "schema": "invideo-timeline/1.0",
+  "project": "DEAD CHANNEL 13 — Season 1 Publish Cuts (EP01 & EP02)",
+  "timeline_settings": {
+    "resolution": "1920x1080",
+    "fps": 24,
+    "frame_math_rule": "Frames = round(seconds * 24). Ranges [start_f, end_f) exclude end_f.",
+    "loudness_target_lufs": -14.0,
+    "limiter_ceiling_dbtp": -1.0
+  },
+  "onboarding_commands": {
+    "install_cli": "curl -fsSL https://raw.githubusercontent.com/invideoio/cli/main/install.sh | sh",
+    "authenticate": "invideo auth login && invideo auth status",
+    "register_agent": "invideo agent register --name dc13-editor",
+    "inspect_before_edit": "invideo edit show <PROJECT_URL>",
+    "dry_run_then_apply": "invideo edit change <PROJECT_URL> --as dc13-editor --dry-run --ops-file publish/invideo_timeline_blueprint.json"
+  },
+  "audio_buses": [
+    {
+      "op": "create_audio_bus",
+      "bus_id": "BUS_DIALOGUE",
+      "name": "Dialogue & Native Lip-Sync",
+      "sidechain_source": true,
+      "effects": [
+        { "op": "add_audio_effect", "name": "voice_eq", "highpass_hz": 90, "presence_2800hz_db": 1.5 },
+        { "op": "add_audio_effect", "name": "click_remover" },
+        { "op": "add_audio_effect", "name": "de_esser" },
+        { "op": "add_audio_effect", "name": "compressor", "threshold_db": -18.0, "ratio": 2.4 }
+      ]
+    },
+    {
+      "op": "create_audio_bus",
+      "bus_id": "BUS_MUSIC",
+      "name": "Score & Ending Credits (yyh01-sunset-credits-suite)",
+      "effects": [
+        {
+          "op": "add_audio_effect",
+          "name": "ducker",
+          "sidechain_bus": "BUS_DIALOGUE",
+          "duck_db": -11.0,
+          "attack_ms": 20,
+          "release_ms": 380
+        }
+      ]
+    },
+    {
+      "op": "create_audio_bus",
+      "bus_id": "BUS_SFX",
+      "name": "Sakuga Impact, Nixie Ticks & Rain Bed"
+    },
+    {
+      "op": "add_audio_effect",
+      "target": "MASTER_BUS",
+      "name": "limiter",
+      "ceiling_dbtp": -1.0,
+      "target_lufs": -14.0
+    }
+  ],
+  "timelines": {
+    "EP01_YOUTUBE_16_9": {
+      "total_frames": 4356,
+      "total_duration_sec": 181.5,
+      "video_tracks": [
+        {
+          "track_id": "V1_FOOTAGE",
+          "locked": false,
+          "clips": [
+            { "id": "ep01_hook_nixie", "source": "videos_ep1/ep1_16_nixie_overclock_dial.mp4", "start_f": 0, "end_f": 36, "note": "1.5s 13.130 Nixie hook" },
+            { "id": "ep01_hook_clash", "source": "videos_ep1/ep1_17_time_tear_counter.mp4", "start_f": 36, "end_f": 96, "note": "2.5s Dual-Renji sakuga proof" },
+            { "id": "ep01_hook_vacuum_gap", "type": "black_slug", "start_f": 96, "end_f": 101, "note": "5f vacuum silence contrast snap" },
+            { "id": "ep01_main_pilot", "source": "masters/DEAD_CHANNEL_13_EP01_FULL_PILOT_JP_SUB.mp4", "start_f": 101, "end_f": 3204, "note": "129.27s full pilot scaled Lanczos to 1920x1080" },
+            { "id": "ep01_ed_bg", "type": "credits_backdrop", "start_f": 3204, "end_f": 4356, "note": "48.0s 1990s sunset noir gradient + scanlines" }
+          ]
+        },
+        {
+          "track_id": "V2_GRADE_ADJUSTMENT",
+          "op": "add_adjustment",
+          "clips": [
+            { "id": "grade_35mm_noir", "start_f": 0, "end_f": 4356, "look": "90s_cel_rain_noir", "grain": 0.04, "contrast": 1.06 }
+          ]
+        },
+        {
+          "track_id": "V3_CREDITS_GALLERY",
+          "locked": false,
+          "clips": [
+            { "id": "ep01_ed_keyframe_gallery", "start_f": 3204, "end_f": 4188, "region": "x=940..1830,y=240..740", "slides": 6 },
+            { "id": "ep01_next_ep_preview", "source": "videos_ep2/ep2_04_sweeper_alley_raid.mp4", "start_f": 4188, "end_f": 4356, "note": "End-screen safe Ep 02 teaser inset" }
+          ]
+        },
+        {
+          "track_id": "V4_TITLES_OVERLAYS",
+          "locked": false,
+          "clips": [
+            { "id": "ep01_scroll_credits", "start_f": 3204, "end_f": 4188, "motion": "keyframe_scroll_y_bottom_to_top", "ease": "linear" },
+            { "id": "ep01_next_card", "start_f": 4188, "end_f": 4356, "text": "NEXT: EPISODE 02 // THE Y2K PURGE" }
+          ]
+        }
+      ],
+      "audio_routing": [
+        { "clip_id": "ep01_main_pilot", "op": "set_audio_routing", "bus_id": "BUS_DIALOGUE" },
+        { "clip_id": "ep01_hook_clash", "op": "set_audio_routing", "bus_id": "BUS_SFX" },
+        {
+          "clip_id": "ep01_credits_yyh01",
+          "source": "G:/My Drive/Antigravity/Projects/Google Flow-music/exports/hits/yyh01-sunset-credits-suite.mp3",
+          "source_in_sec": 0.0,
+          "source_out_sec": 48.0,
+          "start_f": 3168,
+          "end_f": 4356,
+          "fade_in_f": 36,
+          "fade_out_f": 108,
+          "bus_id": "BUS_MUSIC"
+        }
+      ]
+    },
+    "EP02_YOUTUBE_16_9": {
+      "total_frames": 2788,
+      "total_duration_sec": 116.17,
+      "video_tracks": [
+        {
+          "track_id": "V1_FOOTAGE",
+          "clips": [
+            { "id": "ep02_hook_jammer", "source": "videos_ep2/ep2_01_jammer_drop.mp4", "start_f": 0, "end_f": 43 },
+            { "id": "ep02_hook_ricochet", "source": "videos_ep2/ep2_08_cobalt_ricochet.mp4", "start_f": 43, "end_f": 86 },
+            { "id": "ep02_hook_vacuum_gap", "type": "black_slug", "start_f": 86, "end_f": 91 },
+            { "id": "ep02_main_episode", "source": "masters/DEAD_CHANNEL_13_EP02_FULL_EPISODE_JP_SUB.mp4", "start_f": 91, "end_f": 1636 },
+            { "id": "ep02_ed_bg", "type": "credits_backdrop", "start_f": 1636, "end_f": 2788 }
+          ]
+        }
+      ],
+      "audio_routing": [
+        { "clip_id": "ep02_main_episode", "op": "set_audio_routing", "bus_id": "BUS_DIALOGUE" },
+        {
+          "clip_id": "ep02_credits_yyh01",
+          "source": "G:/My Drive/Antigravity/Projects/Google Flow-music/exports/hits/yyh01-sunset-credits-suite.mp3",
+          "source_in_sec": 86.2,
+          "source_out_sec": 134.2,
+          "start_f": 1600,
+          "end_f": 2788,
+          "fade_in_f": 72,
+          "fade_out_f": 108,
+          "bus_id": "BUS_MUSIC"
+        }
+      ]
+    },
+    "SHORT01_13_SECOND_RULE_9_16": {
+      "resolution": "1080x1920",
+      "fps": 24,
+      "total_frames": 576,
+      "source_clips": ["videos_ep1/ep1_16_nixie_overclock_dial.mp4", "videos_ep1/ep1_17_time_tear_counter.mp4", "videos_ep1/ep1_12_sakuga_slash_flurry.mp4", "videos_ep1/ep1_19_yuki_signal_twist.mp4"],
+      "music_bed": "G:/My Drive/Antigravity/Projects/Google Flow-music/exports/hits/rom01-palace-shorts-hook.mp3",
+      "music_duck_db": -11.0
+    },
+    "SHORT02_Y2K_PURGE_9_16": {
+      "resolution": "1080x1920",
+      "fps": 24,
+      "total_frames": 528,
+      "source_clips": ["videos_ep2/ep2_01_jammer_drop.mp4", "videos_ep2/ep2_04_sweeper_alley_raid.mp4", "videos_ep2/ep2_08_cobalt_ricochet.mp4", "videos_ep2/ep2_14_sora_confession.mp4"],
+      "music_bed": "G:/My Drive/Antigravity/Projects/Google Flow-music/exports/hits/rom01-palace-shorts-hook.mp3",
+      "music_duck_db": -11.0
+    }
+  }
+}

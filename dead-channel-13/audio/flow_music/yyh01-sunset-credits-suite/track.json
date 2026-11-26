@@ -1,0 +1,19 @@
+{
+    "slug":  "yyh01-sunset-credits-suite",
+    "title":  "Yu Yu Hakusho Sunset Credits Suite (Connected 124 BPM 4-Stem DJ Blend)",
+    "artist":  "Chase (@chaseham00) / Google Flow Music",
+    "bpm":  124.0,
+    "key":  "D minor -\u003e G minor -\u003e Bb major / F minor -\u003e G major",
+    "timeSignature":  "4/4",
+    "durationSec":  286.3737,
+    "sampleRate":  48000,
+    "format":  "wav",
+    "targetLufs":  -16,
+    "appliedGainDb":  -1.5,
+    "loopable":  false,
+    "instrumental":  false,
+    "stems":  [
+                  "instruments"
+              ],
+    "syncedAt":  "2026-11-25T10:45:42-06:00"
+}

@@ -1,0 +1,19 @@
+{
+    "slug":  "yyh02-spirit-detective-chill",
+    "title":  "Spirit Detective Midnight Chill (Struggle of Sadness x MISIA x Zelda Chill)",
+    "artist":  "Chase (@chaseham00) / Google Flow Music",
+    "bpm":  82.0,
+    "key":  "G major",
+    "timeSignature":  "4/4",
+    "durationSec":  117.0732,
+    "sampleRate":  48000,
+    "format":  "wav",
+    "targetLufs":  -16,
+    "appliedGainDb":  -1.5,
+    "loopable":  false,
+    "instrumental":  true,
+    "stems":  [
+                  "instruments"
+              ],
+    "syncedAt":  "2026-11-25T10:45:47-06:00"
+}
